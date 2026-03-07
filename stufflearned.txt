@@ -1,5 +1,0 @@
-Python doesnt read stuff the way english does:
-i wrote if option_type != "call" or "put": -> if (option_type != "call") or ("put"):, so always true
-fix is if option_type not in ("call", "put"):
-
-valueError is built in python error allows us to stop wrong input values
