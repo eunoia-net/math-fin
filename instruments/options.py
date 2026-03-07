@@ -30,8 +30,6 @@ class EuropeanOption:
             return max(0 , self.strike - S)
     
 
-option = EuropeanOption("put", 100 , 1.0)
-print(option.payoff(80))
 
 
 
